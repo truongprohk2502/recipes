@@ -36,7 +36,7 @@ type Recipe {
 
 type Ingredient {
   id: ID!
-  "Display text for the ingredient"
+  "Display text for the ingredient (deprecated)"
   text: String @deprecated(reason: "Use detailedDescription")
   "The name of an ingredient"
   name: String
